@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0.0" method="upgrade">
-    <!-- Name of the Module -->
-    <name>CCTV Lens Calculator</name>   
-    <author>Patrick Groot</author>
+	<!-- Name of the Module -->
+	<name>CCTV Lens Calculator</name>   
+	<author>Patrick Groot</author>
 	<creationDate>2021</creationDate>
 	<copyright>(C) 2021 Patrick Groot</copyright>
 	<license>https://www.gnu.org/licenses/gpl-3.0.txt GNU/GPL</license>
@@ -26,7 +26,7 @@
 		<folder>css</folder>
 		<folder>js</folder>
 	</media>
-    <config>
+	<config>
 		<fields name="params">
 			<fieldset name="basic">
 				<field
