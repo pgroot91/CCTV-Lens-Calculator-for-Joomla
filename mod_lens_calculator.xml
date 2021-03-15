@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0.0">
+    <!-- Name of the Module -->
+    <name>CCTV Lens Calculator</name>   
+    <author>Patrick Groot</author>
+	<creationDate>2021</creationDate>
+	<copyright>(C) 2021 Patrick Groot</copyright>
+	<license>https://www.gnu.org/licenses/gpl-3.0.txt GNU/GPL</license>
+	<authorEmail>info@patrickgroot.com</authorEmail>
+	<authorUrl>www.patrickgroot.com</authorUrl>
+	<version>1.0</version>
+	<description>MOD_LENS_CALCULATOR_DESCRIPTION_XML</description>
+    <files>
+		<filename module="mod_lens_calculator">mod_lens_calculator.php</filename>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+    </files>
+	<languages folder="/language">
+		<language tag="en-GB">en-GB/en-GB.mod_lens_calculator.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_lens_calculator.sys.ini</language>		
+		<language tag="nl-NL">nl-NL/nl-NL.mod_lens_calculator.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.mod_lens_calculator.sys.ini</language>
+	</languages>
+	<media folder="assets" destination="mod_lens_calculator">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+				  name="title"
+				  type="text"
+				  default="CCTV Lens Calculator"
+				  label="MOD_LENS_CALCULATOR_LABEL_TITLE_XML"
+				  description="MOD_LENS_CALCULATOR_XML"
+				  size="40"
+				/>
+				<field 
+					name="mymodulelayout" 
+					class="form-select"
+					type="modulelayout" 
+					label="JFIELD_ALT_LAYOUT_LABEL" 
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" 
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

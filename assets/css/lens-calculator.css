@@ -1,0 +1,30 @@
+table.lc-table {
+	width: 100%;
+	border-collapse: separate; 
+    border-spacing: 0 1em;
+}
+table.lc-table tr td:first-child {
+	text-align: right;
+	padding-right: 10px;
+}
+form fieldset {
+	border: 1px solid #dfe3e7;
+    border-radius: .25rem;
+	padding: 0 20px;
+}
+form legend {
+	float: inherit;
+	width: inherit;
+	padding: 0 10px;
+}
+table.lc-table button {
+	margin-right: 5px;
+}
+p.result {
+	display: inline-flex;
+	white-space: nowrap;
+	line-height: 45px;
+}
+p.result > input {
+	margin: 0 10px;
+}
