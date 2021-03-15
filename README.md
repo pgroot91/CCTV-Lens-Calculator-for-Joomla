@@ -1,2 +1,2 @@
-# mod_lens_calculator
+# CCTV Lens Calculator for Joomla (Module)
  CCTV Lens Calculator
