@@ -10,12 +10,12 @@
 	<authorUrl>www.patrickgroot.com</authorUrl>
 	<version>1.0</version>
 	<description>MOD_LENS_CALCULATOR_DESCRIPTION_XML</description>
-    <files>
+	<files>
 		<filename module="mod_lens_calculator">mod_lens_calculator.php</filename>
 		<folder>language</folder>
 		<folder>tmpl</folder>
 		<folder>assets</folder>
-    </files>
+	</files>
 	<languages folder="/language">
 		<language tag="en-GB">en-GB/en-GB.mod_lens_calculator.ini</language>
 		<language tag="en-GB">en-GB/en-GB.mod_lens_calculator.sys.ini</language>		
