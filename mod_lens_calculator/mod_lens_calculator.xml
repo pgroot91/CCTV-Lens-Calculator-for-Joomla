@@ -47,4 +47,7 @@
 			</fieldset>
 		</fields>
 	</config>
+	<updateservers>
+		<server type="module" enabled="1" element="mod_lens_calculator" name="CCTV Lens Calculator">https://raw.githubusercontent.com/namibia/CBP-Joomla-3-Component/master/costbenefitprojection_update_server.xml</server>
+	</updateservers>
 </extension>
