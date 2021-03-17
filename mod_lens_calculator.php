@@ -6,7 +6,7 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 * @package Lens Calculator
 * @copyright Patrick Groot; 
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* Homepage: http://www.vedicom.nl
+* Homepage: http://www.patrickgroot.com
 * @version: 1.0 
 * Created on December 10, 2012
 *

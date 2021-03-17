@@ -1,9 +1,24 @@
 <?php 
-	JText::script('MOD_LENS_CALCULATOR_MESSAGE_1');
-	JText::script('MOD_LENS_CALCULATOR_MESSAGE_2');
-	JText::script('MOD_LENS_CALCULATOR_MESSAGE_3B');
-	JText::script('MOD_LENS_CALCULATOR_MESSAGE_3H');
-	JText::script('MOD_LENS_CALCULATOR_NNB');
+
+defined('_JEXEC') or die('Direct Access to this location is not allowed.');
+
+/**
+*
+* @package Lens Calculator
+* @copyright Patrick Groot; 
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Homepage: http://www.patrickgroot.com
+* @version: 1.0 
+* Created on December 10, 2012
+*
+**/
+
+JText::script('MOD_LENS_CALCULATOR_MESSAGE_1');
+JText::script('MOD_LENS_CALCULATOR_MESSAGE_2');
+JText::script('MOD_LENS_CALCULATOR_MESSAGE_3B');
+JText::script('MOD_LENS_CALCULATOR_MESSAGE_3H');
+JText::script('MOD_LENS_CALCULATOR_NNB');
+
 ?>
 
 <div>
