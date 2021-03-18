@@ -30,7 +30,7 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field
-				  name="title"
+				  name="jllc_title"
 				  type="text"
 				  default="CCTV Lens Calculator"
 				  label="MOD_LENS_CALCULATOR_LABEL_TITLE_XML"
@@ -38,7 +38,7 @@
 				  size="40"
 				/>
 				<field 
-					name="mymodulelayout" 
+					name="jllc_layout" 
 					class="form-select"
 					type="modulelayout" 
 					label="JFIELD_ALT_LAYOUT_LABEL" 

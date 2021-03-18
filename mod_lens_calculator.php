@@ -12,8 +12,8 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 *
 **/
 
-$title = $params->get( 'title', '' );
-$layout = $params->get('mymodulelayout', '');
+$title = $params->get( 'jllc_title', '' );
+$layout = $params->get('jllc_layout', '');
 
 $language = JFactory::getLanguage();
 $language->load('mod_lens_calculator');
