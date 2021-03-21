@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="4.0.0" method="upgrade">
+<extension type="module" method="upgrade">
 	<!-- Name of the Module -->
 	<name>CCTV Lens Calculator</name>   
 	<author>Patrick Groot</author>
