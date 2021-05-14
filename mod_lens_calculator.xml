@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<extension type="module" method="upgrade">
+<extension type="module" version="3.9.26" client="site" method="upgrade">
 	<!-- Name of the Module -->
 	<name>CCTV Lens Calculator</name>   
 	<author>Patrick Groot</author>
@@ -8,7 +8,7 @@
 	<license>https://www.gnu.org/licenses/gpl-3.0.txt GNU/GPL</license>
 	<authorEmail>info@patrickgroot.com</authorEmail>
 	<authorUrl>www.patrickgroot.com</authorUrl>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<description>MOD_LENS_CALCULATOR_DESCRIPTION_XML</description>
 	<files>
 		<filename module="mod_lens_calculator">mod_lens_calculator.php</filename>
@@ -30,7 +30,7 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field
-				  name="jllc_title"
+				  name="title"
 				  type="text"
 				  default="CCTV Lens Calculator"
 				  label="MOD_LENS_CALCULATOR_LABEL_TITLE_XML"
@@ -38,7 +38,7 @@
 				  size="40"
 				/>
 				<field 
-					name="jllc_layout" 
+					name="mymodulelayout" 
 					class="form-select"
 					type="modulelayout" 
 					label="JFIELD_ALT_LAYOUT_LABEL" 

@@ -53,8 +53,10 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 						<label for="breedte-objectafstand"><?php echo JText::_('MOD_LENS_CALCULATOR_STAP2'); ?></label>
 					</td>
 					<td>
-						<input type="number" name="objectafstand" id="breedte-objectafstand" class="form-control" min="0" max="999" placeholder="0" />
-						<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						<span class="number-wrap">
+							<input type="number" name="objectafstand" id="breedte-objectafstand" class="form-control" min="0" max="999" placeholder="0" />
+							<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						</span>
 					</td>
 				</tr>
 				<tr>
@@ -62,8 +64,10 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 						<label for="objectbreedte"><?php echo JText::_('MOD_LENS_CALCULATOR_STAP3_BREEDTE'); ?></label>
 					</td>
 					<td>
-						<input type="number" name="objectbreedte" id="objectbreedte" class="form-control" min="0" max="999" placeholder="0" /> 
-						<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						<span class="number-wrap">
+							<input type="number" name="objectbreedte" id="objectbreedte" class="form-control" min="0" max="999" placeholder="0" /> 
+							<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						</span>
 					</td>
 				</tr>
 				<tr>
@@ -74,10 +78,14 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 					</td>
 				</tr>
 				<tr>
-					<td align="right"><?php echo JText::_('MOD_LENS_CALCULATOR_GEBRUIK'); ?> </td>
+					<td align="right">
+						<p class="result"><?php echo JText::_('MOD_LENS_CALCULATOR_GEBRUIK'); ?></p>
+					</td>
 					<td>
-						<input name="output" class="form-control" size="5" readonly />
-						<?php echo JText::_('MOD_LENS_CALCULATOR_OBJECTIEF'); ?>
+						<p class="result">
+							<input type="text" name="output" class="form-control" size="5" readonly />
+							<?php echo JText::_('MOD_LENS_CALCULATOR_OBJECTIEF'); ?>
+						</p>
 					</td>
 				</tr>          
 			</table>
@@ -110,8 +118,10 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 						<label for="hoogte-objectafstand"><?php echo JText::_('MOD_LENS_CALCULATOR_STAP2'); ?></label>
 					</td>
 					<td>
-						<input type="number" name="objectafstand" id="hoogte-objectafstand" class="form-control" min="0" max="999" placeholder="0" /> 
-						<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						<span class="number-wrap">
+							<input type="number" name="objectafstand" id="hoogte-objectafstand" class="form-control" min="0" max="999" placeholder="0" /> 
+							<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						<span>
 					</td>
 				</tr>
 				<tr>
@@ -119,8 +129,10 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 						<label for="objecthoogte"><?php echo JText::_('MOD_LENS_CALCULATOR_STAP3_HOOGTE'); ?></label>
 					</td>
 					<td>
-						<input type="number" name="objecthoogte" id="objecthoogte" class="form-control" min="0" max="999" placeholder="0" /> 
-						<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						<span class="number-wrap">
+							<input type="number" name="objecthoogte" id="objecthoogte" class="form-control" min="0" max="999" placeholder="0" /> 
+							<small><?php echo JText::_('MOD_LENS_CALCULATOR_HELE_METERS'); ?></small>
+						</span>
 					</td>
 				</tr>
 				<tr>
@@ -132,11 +144,15 @@ JText::script('MOD_LENS_CALCULATOR_NNB');
 				</tr>
 				<tr>
 					<td align="right">
-						<?php echo JText::_('MOD_LENS_CALCULATOR_GEBRUIK'); ?>
+						<p class="result">
+							<?php echo JText::_('MOD_LENS_CALCULATOR_GEBRUIK'); ?>
+						</p>
 					</td>
 					<td>
-						<input name="output" class="form-control" size="5" readonly />
-						<?php echo JText::_('MOD_LENS_CALCULATOR_OBJECTIEF'); ?>
+						<p class="result">
+							<input type="text" name="output" class="form-control" size="5" readonly />
+							<?php echo JText::_('MOD_LENS_CALCULATOR_OBJECTIEF'); ?>
+						</p>
 					</td>
 				</tr>
 			</table>
